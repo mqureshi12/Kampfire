@@ -1,0 +1,33 @@
+<%- include("../partials/header") %>
+<!-- ========================= -->
+
+    <% if(currentUser && currentUser.isAdmin){ %>
+        <h1>Admin Role</h1>
+    <% } %>
+    <header class="jumbotron">
+        <div class="container">
+            <h1><i class="fas fa-fire-alt"></i> Welcome to Kampfire! <i class="fas fa-campground"></i></h1>
+            <p>View campgrounds from all over the country</p>
+            <br>
+            <p>
+                <a class="btn btn-primary btn-large" href="/campgrounds/new">Add New Campground</a>
+            </p>
+        </div>
+    </header>
+    <div class="row text-center" style="display:flex; flex-wrap: wrap;">
+        <% campgrounds.forEach(function(campground){ %>
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="<%= campground.image %>" class="groundsPage card-img-top" alt="Image of a Campground">
+                    <div class="card-body">
+                      <h5 class="card-title"><%= campground.name %></h5>
+                      <br>
+                      <a href="/campgrounds/<%= campground._id %>" class="btn btn-info btn-sm">More Info</a>
+                    </div>
+                  </div>
+            </div>
+        <% }); %>
+    </div>
+
+<!-- ========================= -->
+<%- include("../partials/footer") %>
