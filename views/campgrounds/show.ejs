@@ -15,6 +15,9 @@
           <h5 class="card-title"><%= campground.name %></h5>
           <hr>
           <p class="card-text"><%= campground.description %></p>
+          <p>
+            <em>Submitted By <%= campground.author.username %></em>
+          </p>
           <% if(currentUser && campground.author.id.equals(currentUser._id) || currentUser && currentUser.isAdmin){ %>
           <a class="btn btn-warning btn-sm" href="/campgrounds/<%= campground._id %>/edit">Edit</a>
           <form action="/campgrounds/<%= campground._id %>?_method=DELETE" method="POST" class="delete-form">
