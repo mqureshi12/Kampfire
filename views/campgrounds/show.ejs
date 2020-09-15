@@ -16,7 +16,7 @@
           <hr>
           <p class="card-text"><%= campground.description %></p>
           <p>
-            <em>Submitted By <%= campground.author.username %></em>
+            <em>Submitted By: <strong><%= campground.author.username %></strong></em>
           </p>
           <% if(currentUser && campground.author.id.equals(currentUser._id) || currentUser && currentUser.isAdmin){ %>
           <a class="btn btn-warning btn-sm" href="/campgrounds/<%= campground._id %>/edit">Edit</a>
