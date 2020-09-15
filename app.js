@@ -19,7 +19,7 @@ var commentRoutes = require("./routes/comments");
 var campgroundRoutes = require("./routes/campgrounds");
 var indexRoutes = require("./routes/index");
 
-mongoose.connect("mongodb+srv://mDev2231:BallPointPen3.0@kampfire.uvcbx.mongodb.net/kampfire?retryWrites=true&w=majority", {
+mongoose.connect(process.env.URL_STRING, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false
