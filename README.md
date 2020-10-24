@@ -6,9 +6,9 @@
 Information on any specific campground includes the name, price, location, descriptions, and an image.
 Users can also add comments.
 
-* [ ] If you would like to test it you, please see the link below. You can create your own account or use the login provided.
+* [ ] If you would like to test it, please see the link below. You can create your own account or use the login provided.
 
-Username: kampfiretestlogin
+Username: kampfiretestlogin |
 Password: kampfiretestpassword@10
 
 https://mykampfire2020.herokuapp.com
