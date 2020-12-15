@@ -8,6 +8,8 @@ Users can also add comments.
 
 - If you would like to test it, please see the link below. You can create your own account or use the login provided.
 
+### NOTE: Google Maps functionality may not work properly as my GCP trial has ended.
+
 Username: kampfiretestlogin |
 Password: kampfiretestpassword@10
 
