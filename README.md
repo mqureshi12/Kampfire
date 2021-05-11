@@ -2,7 +2,7 @@
 
 ## Summary
 
-- Information on any specific campground includes the name, price, location, descriptions, and an image
+- Information on any specific campground includes the name, price, location, description, and an image
 - Implemented the Google Maps API for retrieving location data and created authentication and authorization for various routes
 - Built with Node, Express, and MongoDB. Deployed to Heroku
 
