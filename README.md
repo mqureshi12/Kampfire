@@ -2,13 +2,13 @@
 
 ## Summary
 
-- Responsive application where users can both add and view different camping grounds across America.
-Information on any specific campground includes the name, price, location, descriptions, and an image.
-Users can also add comments.
+- Information on any specific campground includes the name, price, location, descriptions, and an image
+- Implemented the Google Maps API for retrieving location data and created authentication and authorization for various routes
+- Built with Node, Express, and MongoDB. Deployed to Heroku
 
-- If you would like to test it, please see the link below. You can create your own account or use the login provided.
+- If you would like to test it, please see the link below. You can create your own account or use the login provided
 
-### NOTE: Google Maps functionality may not work properly as my GCP trial has ended.
+### NOTE: Google Maps functionality may not work properly as my GCP trial has ended
 
 Username: kampfiretestlogin |
 Password: kampfiretestpassword@10
